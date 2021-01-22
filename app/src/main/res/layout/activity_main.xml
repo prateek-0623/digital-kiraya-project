@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/phone_id"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498"
+        app:srcCompat="@drawable/phone" />
+
+    <ImageView
+        android:id="@+id/hut_id"
+        android:layout_width="79dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/phone_id"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.471"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/phone_id"
+        app:layout_constraintVertical_bias="0.159"
+        app:srcCompat="@drawable/hut" />
+
+    <ImageView
+        android:id="@+id/digital_id"
+        android:layout_width="60dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/phone_id"
+        app:layout_constraintEnd_toEndOf="@+id/phone_id"
+        app:layout_constraintHorizontal_bias="0.41"
+        app:layout_constraintStart_toStartOf="@+id/phone_id"
+        app:layout_constraintTop_toTopOf="@+id/phone_id"
+        app:layout_constraintVertical_bias="0.314"
+        app:srcCompat="@drawable/digital" />
+
+    <ImageView
+        android:id="@+id/kiraya_id"
+        android:layout_width="65dp"
+        android:layout_height="27dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="55dp"
+        app:layout_constraintBottom_toBottomOf="@+id/phone_id"
+        app:layout_constraintEnd_toEndOf="@+id/phone_id"
+        app:layout_constraintStart_toStartOf="@+id/phone_id"
+        app:layout_constraintTop_toTopOf="@+id/phone_id"
+        app:srcCompat="@drawable/kiraya" />
+
+    <ImageView
+        android:id="@+id/line1_id"
+        android:layout_width="60dp"
+        android:layout_height="11dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="25dp"
+        app:layout_constraintBottom_toBottomOf="@+id/phone_id"
+        app:layout_constraintEnd_toEndOf="@+id/phone_id"
+        app:layout_constraintStart_toStartOf="@+id/phone_id"
+        app:layout_constraintTop_toTopOf="@+id/phone_id"
+        app:srcCompat="@drawable/line" />
+
+    <ImageView
+        android:id="@+id/line2_id"
+        android:layout_width="43dp"
+        android:layout_height="12dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/phone_id"
+        app:layout_constraintEnd_toEndOf="@+id/phone_id"
+        app:layout_constraintHorizontal_bias="0.527"
+        app:layout_constraintStart_toStartOf="@+id/phone_id"
+        app:layout_constraintTop_toTopOf="@+id/phone_id"
+        app:layout_constraintVertical_bias="0.551"
+        app:srcCompat="@drawable/line" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
